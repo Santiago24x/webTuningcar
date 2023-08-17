@@ -20,7 +20,7 @@ body {
   }
   
   .logo img {
-    height: 80px;
+    height: 200px;
   }
   
   .nav-links {
@@ -31,18 +31,20 @@ body {
   }
   
   .nav-links li {
-    margin-right: 25px;
+    margin-right: 50px;
+    margin-left: 28px;
   }
   
   .nav-links a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     color: #fff;
     transition: color 0.3s; /* Agregamos transición suave */
   }
   
   .nav-links a:hover {
-    color: #0F5DB5;
+    color:  #89b1d0 ;
     font-family: 'Montserrat', sans-serif; /* Cambio de color a rojo en hover */
   }
 

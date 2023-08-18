@@ -1,50 +1,37 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .logo img {
-    height: 200px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin-right: 50px;
-    margin-left: 28px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    transition: color 0.3s; /* Agregamos transición suave */
-  }
-  
-  .nav-links a:hover {
-    color:  #89b1d0 ;
-    font-family: 'Montserrat', sans-serif; /* Cambio de color a rojo en hover */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Josefin+Sans:ital,wght@1,700&display=swap');
+/* estilos generales */
+a{
+  text-decoration: none;
+  color: white;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar{
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar div{
+  padding: 5%;
+}
+
+.logo{
+  width: auto;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.image-edit img{
+  width: 100%;
+}
 

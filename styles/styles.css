@@ -28,7 +28,7 @@ h1 {
 .services h2, .culture h2 {
     font-size: 2em;
     padding-left: 1.2em;
-    border-left: 0.1em  #459DAA solid;
+    border-left: 0.1em  #FC690B solid;
 
 }
 
@@ -51,4 +51,68 @@ nav, .infos, .info, .services-header, .services li, .stats {
     justify-content: space-between;
     align-items: center
     
+}
+
+.services, .icons , .panel:first-child, .panel:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+header {
+    height: 100vh;
+    min-height: 30em;
+    background: url(../images/cars1080.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* navbar  */
+nav {
+    padding: 1.5em 2.5em;
+    position: relative;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.brand {
+    font-size: 1.3em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.8em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #FC690B;
+}
+
+/* body */
+
+.header-body {
+    padding:2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.header-body p {
+    max-width: 25em;
+}
+
+.heading h2 {
+    font-size: 2em;
 }

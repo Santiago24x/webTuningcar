@@ -1,3 +1,20 @@
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #161616;
+}
+::-webkit-scrollbar-thumb {
+    background: #434649;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #FC690B;
+}
+
+
+
 body {
     margin: 0;
     font-family: 'poppins', sans-serif;
@@ -25,6 +42,8 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 3em;
     margin: 0;
+    color: #FC690B;
+    
 }
 
 .services h2, .culture h2 {
@@ -49,17 +68,15 @@ section {
 }
 
 /* seteo de todos los flex */
-nav, .infos, .info, .services-header, .services li, .stats {
+nav, .infos, .info{
     display: flex;
     justify-content: space-between;
     align-items: center
     
 }
 
-.services, .icons , .panel:first-child, .panel:last-child {
-    display: flex;
-    justify-content: center;
-    align-items: center
+.info {
+    padding: 0 3em;
 }
 
 /* Estilos para el header */
@@ -91,7 +108,7 @@ header {
         opacity: 0.9; /* Puedes ajustar este valor según lo deseado */
   }
   
-  .header-body {
+.header-body {
     position: relative;
     z-index: 1;
     display: flex;
@@ -107,7 +124,7 @@ header {
     box-sizing: border-box;
   }
   
-  .header-body h1 {
+.header-body h1 {
     margin: 0; /* Resetear margen */
   }
   

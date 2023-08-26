@@ -21,6 +21,7 @@ h1,h2 {
 }
 
 h1 {
+    font-family: 'Orbitron', sans-serif;
     font-size: 3em;
     margin: 0.5em 0;
 }
@@ -29,6 +30,7 @@ h1 {
     font-size: 2em;
     padding-left: 1.2em;
     border-left: 0.1em  #FC690B solid;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -81,17 +83,26 @@ nav {
 }
 
 .brand {
-    font-size: 1.3em;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FC690B;
+    background-color: #161616;
+    padding: 0.3em;
 }
 
 nav li {
     display: inline-block;
     margin: 0 0.8em;
     text-align: center;
+    font-family: 'Azeret Mono', monospace;
+}
+.brand:hover {
+    color: #ffffff;
 }
 
 nav a {
     color: #fff;
+    font-size: 1.2em;
 }
 
 nav a:hover {
@@ -110,7 +121,9 @@ nav a:hover {
 }
 
 .header-body p {
+    font-size: 1.2em;
     max-width: 25em;
+    font-family: 'Azeret Mono', monospace;
 }
 
 .heading h2 {

@@ -48,7 +48,19 @@ section {
     padding: 2.5em;
 }
 
+/* seteo de todos los flex */
+nav, .infos, .info, .services-header, .services li, .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
 
+.services, .icons , .panel:first-child, .panel:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 
 /* Estilos para el header */
 header {

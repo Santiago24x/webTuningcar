@@ -51,32 +51,6 @@ h1 {
     
 }
 
- .culture h2 {
-    font-size: 2em;
-    font-family: 'Orbitron', sans-serif;
-    color: #FC690B;
-    text-align: center;    
-
-}
-
-.culture h3{
-    font-size: 1.5em;
-    text-align: center;
-
-}
-
-.culture p {
-    font-size: 1em;
-    text-align: center;
-    padding: 0 10%;
-}
-
-.car-brands h3 {
-    font-size: 1.5em;
-    font-family: 'Orbitron', sans-serif;
-    color: #FC690B;
-}
-
 ul {
     list-style: none;
 }
@@ -90,60 +64,12 @@ section {
     padding: 2.5em;
 }
 
-/* seteo de todos los flex */
-nav, .info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-    
-}
 
-.infos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1em; /* Ajusta el espaciado entre los logos */
-    text-align: center;
-    max-width: 33%;
-}
-
-.info img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Media query para dispositivos con ancho máximo de 768px */
-@media screen and (max-width: 768px) {
-    .infos {
-        flex-direction: column; /* Cambia la dirección a columna para dispositivos pequeños */
-        align-items: center; /* Centra los logos horizontalmente */
-    }
-
-    .info {
-        max-width: 100%; /* Ocupan todo el ancho en dispositivos pequeños */
-    }
-}
-
-@media (max-width: 900px) {
-    .header-body h1{
-        font-size: 2em;
-    }
-
-}
-
-/* Estilos para el header */
+/* styles for video header */
 header {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    /* height: 1080px; // Eliminado: La altura ya está definida como 100vh */
 }
 
 #video-container {
@@ -154,8 +80,7 @@ header {
     height: 100%;
     overflow: hidden;
     z-index: -1;
-     /* Agregar el fondo semi-transparente */
-     background-color: rgba(0, 0, 0, 1); /* El último valor (0.5) ajusta la opacidad */
+     background-color: rgba(0, 0, 0, 1);
 
 }
   
@@ -164,7 +89,7 @@ header {
     height: 100%;
     object-fit: cover;
         /* Ajustar la opacidad del video */
-        opacity: 0.9; /* Puedes ajustar este valor según lo deseado */
+        opacity: 0.9; 
   }
   
 .header-body {
@@ -186,6 +111,21 @@ header {
 .header-body h1 {
     margin: 0; /* Resetear margen */
   }
+
+  .header-body {
+    padding: 2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-body p {
+    font-size: 1.2em;
+    font-family: 'Azeret Mono', monospace;
+}
   
 /* navbar  */
 nav {
@@ -225,27 +165,7 @@ nav a:hover {
     color: #FC690B;
 }
 
-/* body */
-
-.header-body {
-    padding: 2.5em;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-body p {
-    font-size: 1.2em;
-    font-family: 'Azeret Mono', monospace;
-}
-
-
-.heading h2 {
-    font-size: 2em;
-}
+/* Styles for body */
 
 img {
     width: auto;
@@ -274,3 +194,86 @@ img {
       animation-range: entry 25% cover 30%;
       animation-fill-mode: both;
   }
+
+/* Styles for the section Culture */
+
+ .culture h2 {
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+    color: #FC690B;
+    text-align: center;    
+
+}
+
+.culture h3{
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.culture p {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.car-brands h3 {
+    font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+    color: #FC690B;
+}
+.heading h2 {
+    font-size: 2em;
+}
+
+
+
+/* flex for culture */
+nav, .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em; /* Ajusta el espaciado entre los logos */
+    text-align: center;
+    max-width: 33%;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for culture */
+@media screen and (max-width: 768px) {
+    .infos {
+        flex-direction: column; /* Cambia la dirección a columna para dispositivos pequeños */
+        align-items: center; /* Centra los logos horizontalmente */
+    }
+
+    .info {
+        max-width: 100%; /* Ocupan todo el ancho en dispositivos pequeños */
+    }
+}
+
+@media (max-width: 900px) {
+    .header-body h1{
+        font-size: 2em;
+    }
+
+}
+
+/* styles for services */

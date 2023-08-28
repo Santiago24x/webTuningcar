@@ -222,6 +222,10 @@ img {
     font-family: 'Orbitron', sans-serif;
     color: #FC690B;
 }
+
+.car-brands p {
+    font-size: 1em;
+}
 .heading h2 {
     font-size: 2em;
 }

@@ -15,13 +15,22 @@
 
 /* effect smoth */
 
+
+
 html {
     scroll-behavior: smooth;
 }
 
+html,body {
+    height: 100%;
+    position: relative;
+}	
+
+
 /* General Styles */
 body {
     margin: 0;
+    padding: 0;
     font-family: 'poppins', sans-serif;
     color: #fff;
     background: #161616;
@@ -63,6 +72,7 @@ a {
 section {
     padding: 2.5em;
 }
+
 
 
 /* styles for video header */
@@ -281,3 +291,4 @@ nav, .info{
 }
 
 /* styles for services */
+

@@ -380,14 +380,13 @@ nav, .info{
     background-color: #434649;
   }
   
-  .swiper-navBtn {
-    color: white;
-    transition: all 0.3s ease;
-  }
-  
-  .swiper-navBtn:hover {
+  .slider-container .swiper-navBtn {
     color: #FC690B;
-  }
+}
+  
+.slider-container .swiper-navBtn:hover {
+  color: #ffffff;
+}
   
   .swiper-navBtn::before,
   .swiper-navBtn::after {
@@ -403,15 +402,14 @@ nav, .info{
     left: 0;
   }
   
-  .swiper-pagination-bullet {
+  .slider-container .swiper-pagination-bullet {
     background-color: #707070;
     opacity: 1;
-  }
+}
   
-  .swiper-pagination-bullet-active {
-    background-color: #FC690B;
-  }
-  
+.slider-container .swiper-pagination-bullet-active {
+  background-color: #FC690B;
+}
   @media (max-width: 768px) {
     .slider-content {
       margin: 0 10px;

@@ -143,10 +143,6 @@ nav {
     position: relative;
 }
 
-.menu-btn {
-    display: none;
-}
-
 .brand {
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
@@ -155,25 +151,83 @@ nav {
 
 
 }
-
-nav li {
-    display: inline-block;
-    margin: 0 0.8em;
-    text-align: center;
-    font-family: 'Azeret Mono', monospace;
-}
 .brand:hover {
     color: #ffffff;
 }
 
-nav a {
+/* Estilos para pantallas grandes (escritorio) */
+
+/* Estilos para pantallas grandes (escritorio) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    font-family: 'Azeret Mono', monospace;
+  }
+  
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-items li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .menu-items a {
     color: #fff;
+    text-decoration: none;
     font-size: 1.2em;
+  }
+  
+  .menu-items a:hover {
+    color: #FC690B;
+  }
+
+  .menu-btn {
+    display: none;
+
 }
 
-nav a:hover {
-    color: #FC690B;
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    .menu-items {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: left; /* Alinea el texto a la izquierda */
+    }
+
+    .menu-items.show-menu {
+        display: block;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Estilos para mostrar la lista hacia abajo */
+    .menu-items li {
+        display: block; /* Muestra cada elemento de menú en una nueva línea */
+        margin: 10px 0; /* Agrega espacio entre elementos de menú */
+    }
+
+    /* Estilos para los elementos de menú */
+    .menu-items a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
 }
+
 
 /* Styles for body */
 

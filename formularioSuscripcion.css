@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+/* Estilos para el formulario */
+.card {
+    background-color: #222; /* Fondo oscuro para el formulario */
+    color: #fff; /* Texto blanco para el formulario */
+    border: none; /* Sin borde */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #FC690B; /* Botón naranja */
+    border: none; /* Sin borde */
+    color: #fff; /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #FF7F32; /* Color naranja más claro al pasar el mouse */
+}
+
+/* Estilos para los iconos */
+.bi {
+    color: #FC690B; /* Color naranja para los iconos */
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    color: #fff; /* Texto blanco para las etiquetas */
+}
+
+/* Estilos para los bordes de los campos de entrada */
+.form-control {
+    border-color: #FC690B; /* Borde naranja para los campos de entrada */
+}
+
+/* Estilos para el texto de error */
+.text-danger {
+    color: red; /* Texto rojo para los mensajes de error */
+}

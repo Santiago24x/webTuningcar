@@ -5,7 +5,7 @@ This project is set to be developed during the second cycle of Campusland, focus
 
 ## TuneXpertise
 
-"Tune Xpertise es un proyecto que se adentrará en el mundo de la cultura tuning. Exploraremos sitios web que ofrecen piezas y modificaciones tuning, mostraremos servicios tuning en Colombia, ofreceremos las últimas noticias y contaremos con una galería de contenidos multimedia.
+"Tune Xpertise es un proyecto que se adentrará en el mundo de la cultura tuning. Exploraremos sitios web que ofrecen piezas y modificaciones tuning, mostraremos servicios tuning en Colombia y contaremos con una galería de contenidos multimedia.
 
 ### →Design
 
